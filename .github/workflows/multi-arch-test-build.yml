@@ -1,9 +1,7 @@
 name: Test Build dyn
 
 on:
-  pull_request:
-    paths-ignore:
-      - '**.md'
+  workflow_dispatch:
 
 jobs:
   build:
